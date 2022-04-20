@@ -34,21 +34,22 @@ ul {
 }
 
 .submenu {
+  box-sizing: border-box;
   position: absolute;
   margin: 0;
   list-style: none;
-  background-color: gray;
+  background-color: teal;
   top: 100%;
   left: 0;
   width: 100%;
   display: none;
-  padding: 5px;
+  padding: 10px;
 }
 
-/* .submenu-link {
+.submenu-link {
   display: block;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .submenu-item {
   margin-bottom: 10px;
@@ -56,4 +57,4 @@ ul {
 
 .submenu-item:last-child {
   margin-bottom: 0;
-} */
+}
